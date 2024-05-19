@@ -1,0 +1,34 @@
+Parola kontrol ve þifreleme iþlemi için aþaðýdaki üç metodu yazýnýz.
+
+
+public static bool kontrol(string parola)
+Kendisine gelen parolayý aþaðýdaki kurala göre kontrol eden bir metod yazýnýz
+Kural:
+ Parola içinde en az bir büyük harf, bir küçük harf ve bir rakam içermeli ve parola 10 karakterden oluþmalý
+
+public static string sifrele(string parola)
+Kendisine gelen parolayý aþaðýdaki kurala göre þifreleyen bir metod yazýnýz
+Kural:
+Paroladaki her bir karakter kendisinden 4 sonra gelen  karakter ile deðiþtirilecektir. Elde edilen bu parola her iki karakter arasýna "-" karakteri koyularak geri döndürülecektir.
+Örnek: gelen parola AaBbAaBb00 ise üretilecek þifreli parola Ee-Ff-Ee-Ff-44
+
+public static string sifreCoz(string parola)
+Þifrelenmiþ parolayý eski haline getirip döndüren metod.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+using System;
+
+namespace ConsoleApp12
+{
+    class dortgen
+    {
+        public dortgen() //yapýcý metod
+        {
+            en = 10;
+            boy = 10;
+        }
+        public dortgen(int En,int Boy) //yapýcý metod
+        {
+            if (En > 0) en = En;
+            if (Boy > 0) boy = Boy;
+        }
+        ~dortgen()
+        {
+            Console.WriteLine("nesne silindi");
+        }
+        private int en; //alan
+        private int boy;
+        public int alan() //metod
+        {
+            return en * boy;
+        }
+        public int cevre()
+        {
+            return (en + boy) * 2;
+        }
+        public void yaz()
+        {
+            Console.WriteLine($"Dörtgenin eni {en}");
+            Console.WriteLine($"Dörtgenin boyu {boy}");
+            Console.WriteLine($"Dörtgenin alaný {alan()}");
+        }
+        public void enboyBelirle(int En,int Boy)
+        {
+            if (En > 0) en = En;
+            if (Boy > 0) boy = Boy;
+        }
+        public int En  //özellik
+        {
+            set
+            {
+                if (value > 0) en = value;
+            }
+            get
+            {
+                return en;
+            }
+        }
+        public int Boy
+        {
+            set
+            {
+                if (value > 0) boy = value;
+            }
+            get
+            {
+                return boy;
+            }
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            dortgen kare = new dortgen();
+            kare.yaz();
+
+            kare.enboyBelirle(15, 15);
+            Console.WriteLine(kare.alan()) ;
+            Console.WriteLine(kare.cevre());
+            kare.yaz();
+            kare.En = 10;
+            kare.Boy = 15;
+            kare.yaz();
+            dortgen dikdortgen = new dortgen(15, 20);
+            dikdortgen.yaz();
+            dikdortgen = null;
+            GC.Collect();
+          
+
+        }
+    }
+}

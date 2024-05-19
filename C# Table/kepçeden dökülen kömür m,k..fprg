@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="error"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 11:11:47 &#214;&#214;"/>
+        <attribute name="created" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMjU7MTE6MDQ6MzIgw5bDljsyNTI4"/>
+        <attribute name="edited" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMjU7MTE6MTE6NDcgw5bDljsxOzI2NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kep&#231;e, derinlik" type="Integer" array="False" size=""/>
+            <assign variable="kep&#231;e" expression="2586"/>
+            <for variable="derinlik" start="960" end="0" direction="dec" step="40">
+                <assign variable="kep&#231;e" expression="kep&#231;e-58"/>
+            </for>
+            <output expression="kep&#231;e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

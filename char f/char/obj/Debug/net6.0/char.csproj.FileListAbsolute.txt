@@ -1,0 +1,15 @@
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\bin\Debug\net6.0\char.exe
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\bin\Debug\net6.0\char.deps.json
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\bin\Debug\net6.0\char.runtimeconfig.json
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\bin\Debug\net6.0\char.dll
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\bin\Debug\net6.0\char.pdb
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.csproj.AssemblyReference.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.AssemblyInfoInputs.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.AssemblyInfo.cs
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.csproj.CoreCompileInputs.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.dll
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\refint\char.dll
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.pdb
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\char.genruntimeconfig.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\char\char\obj\Debug\net6.0\ref\char.dll

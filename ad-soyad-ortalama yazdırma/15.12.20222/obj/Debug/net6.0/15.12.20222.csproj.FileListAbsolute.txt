@@ -1,0 +1,15 @@
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.csproj.AssemblyReference.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.AssemblyInfoInputs.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.AssemblyInfo.cs
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.csproj.CoreCompileInputs.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\bin\Debug\net6.0\15.12.20222.exe
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\bin\Debug\net6.0\15.12.20222.deps.json
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\bin\Debug\net6.0\15.12.20222.runtimeconfig.json
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\bin\Debug\net6.0\15.12.20222.dll
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\bin\Debug\net6.0\15.12.20222.pdb
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.dll
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\refint\15.12.20222.dll
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.pdb
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\15.12.20222.genruntimeconfig.cache
+C:\Users\error\OneDrive\Masaüstü\belgelerim\15.12.20222\15.12.20222\obj\Debug\net6.0\ref\15.12.20222.dll

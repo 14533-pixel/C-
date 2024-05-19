@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="error"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 12:07:33 &#214;S"/>
+        <attribute name="created" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMjU7MTE6MTE6NDkgw5bDljsyNTM0"/>
+        <attribute name="edited" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMjU7MTI6MDc6MzMgw5ZTOzE7MjUxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y&#305;l, n&#252;fus" type="Real" array="False" size=""/>
+            <assign variable="n&#252;fus" expression="30.000"/>
+            <for variable="y&#305;l" start="1970" end="2020" direction="inc" step="4">
+                <assign variable="n&#252;fus" expression="n&#252;fus+(n&#252;fus*0.038)"/>
+            </for>
+            <output expression="n&#252;fus" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

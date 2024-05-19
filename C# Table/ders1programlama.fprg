@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="error"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-11 11:40:12 &#214;&#214;"/>
+        <attribute name="created" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMTE7MDg6MjE6MTAgw5bDljsyNTI0"/>
+        <attribute name="edited" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMTE7MTE6NDA6MTIgw5bDljsxOzI2Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="abonenum, harcama, tutar, kdv" type="Real" array="False" size=""/>
+            <input variable="abonenum"/>
+            <input variable="harcama"/>
+            <if expression="abonenum=1">
+                <then>
+                    <if expression="">
+                        <then/>
+                        <else/>
+                    </if>
+                    <assign variable="tutar" expression="harcama*1"/>
+                    <assign variable="kdv" expression="tutar*0.18"/>
+                    <output expression="kdv" newline="True"/>
+                </then>
+                <else>
+                    <if expression="abonenum=2">
+                        <then>
+                            <assign variable="tutar" expression="harcama*1.5"/>
+                            <assign variable="kdv" expression="tutar*0.18"/>
+                            <output expression="kdv" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="abonenum=3">
+                                <then>
+                                    <assign variable="tutar" expression="harcama*0.75"/>
+                                    <assign variable="kdv" expression="tutar*0.18"/>
+                                    <output expression="kdv" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;ge&#231;erli bir abone numaras&#305; giriniz&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

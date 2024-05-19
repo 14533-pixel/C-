@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="error"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-01 09:08:18 &#214;&#214;"/>
+        <attribute name="created" value="ZXJyb3I7SEFNSURPOzIwMjItMTEtMDE7MDg6MTQ6MTIgw5bDljsyNTI4"/>
+        <attribute name="edited" value="ZXJyb3I7SEFNSURPOzIwMjItMTEtMDE7MDk6MDg6MTggw5bDljsxOzI2NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, s3" type="Integer" array="False" size=""/>
+            <input variable="s1"/>
+            <do expression="s1=s2">
+                <output expression="&quot;s2 giriniz&quot;" newline="True"/>
+                <input variable="s2"/>
+            </do>
+            <do expression="s1=s3 or s2=s3">
+                <output expression="&quot;s3 giriniz&quot;" newline="True"/>
+                <input variable="s3"/>
+            </do>
+            <if expression="((s1&lt;s3) and (s1&gt;s2)) or ((s1&gt;s3) and (s1&lt;s2))">
+                <then>
+                    <assign variable="ort" expression="s1"/>
+                </then>
+                <else>
+                    <if expression="((s2&lt;s1) and (s2&gt;s3)) or ((s2&gt;s1) and (s2&lt;s3))">
+                        <then>
+                            <assign variable="ort" expression="s2"/>
+                        </then>
+                        <else>
+                            <assign variable="ort" expression="s3"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

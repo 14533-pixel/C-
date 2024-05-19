@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="error"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 10:40:40 &#214;&#214;"/>
+        <attribute name="created" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMjU7MDg6MTU6Mzggw5bDljsyNTQy"/>
+        <attribute name="edited" value="ZXJyb3I7SEFNSURPOzIwMjItMTAtMjU7MTA6NDA6NDAgw5bDljsxOzI2MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, i, tambol, sonu&#231;" type="Integer" array="False" size=""/>
+            <input variable="s1"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="tambol" expression="0"/>
+            <for variable="i" start="1" end="s1" direction="inc" step="1">
+                <if expression="s1%i==0">
+                    <then>
+                        <assign variable="tambol" expression="tambol+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="tambol==2">
+                <then>
+                    <output expression="&quot;say&#305; asald&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;say&#305; asal de&#287;ildir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
